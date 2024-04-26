@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    max-width: 60%; /* Ajustez la largeur max selon vos préférences */
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align:center;
+    color: #333;
+    }
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.button {
+display: block;
+    margin: 0 auto; /* Centre le bouton horizontalement */
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px; /* Coins arrondis */
+    font-weight: bold; /* Texte en gras */
+    text-align: center;
+    text-decoration: none;
+    color: white; /* Couleur du texte */
+    background-color: #ff6666; /* Couleur de fond */
+    transition: background-color 0.3s ease-in-out; /* Animation de transition de couleur de fond */
+}
+.button:hover {
+    background-color: #3498db;
+}
